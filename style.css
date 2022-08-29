@@ -1,3 +1,11 @@
+.logo {
+    display: flex;
+}
+
 #background-img {
     width: 40vw;
+}
+
+#toast-icon {
+    height: 10vh;
 }
