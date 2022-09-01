@@ -7,25 +7,21 @@
 
 .container {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 }
 
-.container,
-.picture, 
+.container, 
 .logo {
     display: flex;
     flex-flow: wrap;
 }
 
 .croissant-icon {
-    max-width: 20%;
-    height: auto;
-    color: white;
+    height: 10vh;
 }
 
 .picture-credit {
-    width: fit-content;
-    max-height: 50px;
+    align-items: flex-end;
     font-size: 12px;
     padding: 10px 20px;
 }
@@ -39,8 +35,8 @@
 }
 
 .logo {
-    max-height: 20%;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
     position: relative;
     top: 20vh;
     gap: 1vw;
