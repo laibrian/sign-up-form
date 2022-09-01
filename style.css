@@ -1,11 +1,30 @@
-.logo {
-    display: flex;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
 }
 
-#background-img {
+.container {
+    width: 100vw;
+    height: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.picture {
+    background-image: url(./assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 40vw;
 }
 
-#toast-icon {
-    height: 10vh;
-}

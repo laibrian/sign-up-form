@@ -4,16 +4,17 @@
         <meta charset="UTF-8"/>
         <title>ToastMePls Sign-Up-Form</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- background credit: Samuel Ferrara on Unsplash: https://unsplash.com/photos/dKJXkKCF2D8 -->
+        <!-- <img id="background-img" src="/assets/background.jpg" alt="Mountain in Switzerland during sunset"> -->
         <div class="container">
-            <div class="left">
-                <div class="picture">
-                    <img id="background-img" src="/assets/background.jpg" alt="Mountain in Switzerland during sunset">
-                </div>
+            <div class="picture">
                 <div class="logo">
-                    <img id="toast-icon" src="/assets/bread.png" alt="Toast icon">
+                    <img class="toast-icon" src="/assets/bread.png" alt="Toast icon">
                     <h1 class="toastmepls">ToastMePls</h1>
                 </div>
                 <div class="picture-credit">
@@ -24,40 +25,40 @@
             <div class="right">
                 <div class="form-description">
                     <p>This is not a real online service! You know you need something like this in your life to help you realize your
-                        deepest dreams. Sign up now to get started.
+                        deepest dreams. Sign up <em>now</em> to get started.
                     </p>
-                    <p>You know you want to.</p>
+                    <p>You <em>know</em> you want to.</p>
                 </div>
                 <form action="" id="account-form">
                     <div class="form-container">
                         <p class="form-title">Let's do this!</p>
                         <div class="input">
-                            <label for="first_name">First Name</label>
+                            <label for="first_name">FIRST NAME</label>
                             <input type="text" id="first_name" name="first_name" required>
                         </div>
 
                         <div class="input">
-                            <label for="last_name">Last Name</label>
+                            <label for="last_name">LAST NAME</label>
                             <input type="text" id="last_name" name="last_name">
                         </div>
 
                         <div class="input">
-                            <label for="email">Email</label>
+                            <label for="email">EMAIL</label>
                             <input type="email" id="email" name="email" required>
                         </div>
 
                         <div class="input">
-                            <label for="phone_number">Phone Number</label>
+                            <label for="phone_number">PHONE NUMBER</label>
                             <input type="text" id="phone_number" minlength="9" maxlength="9">
                         </div>
 
                         <div class="input">
-                            <label for="password">Password</label>
+                            <label for="password">PASSWORD</label>
                             <input type="password" id="password" name="password" required>
                         </div>
 
                         <div class="input">
-                            <label for="confirm_password">Confirm Password</label>
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
                             <input type="password" id="confirm_password" name="confirm_password" required>
                         </div>
                     </div>
