@@ -10,10 +10,24 @@
     height: 100vw;
 }
 
-.container, 
+.container,
+.picture, 
 .logo {
     display: flex;
     flex-flow: wrap;
+}
+
+.croissant-icon {
+    max-width: 20%;
+    height: auto;
+    color: white;
+}
+
+.picture-credit {
+    width: fit-content;
+    max-height: 50px;
+    font-size: 12px;
+    padding: 10px 20px;
 }
 
 .picture {
@@ -24,9 +38,24 @@
     width: 40vw;
 }
 
+.logo {
+    max-height: 20%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
 h1,
 .picture-credit,
 a:link,
 a:visited {
     color: rgb(255, 255, 255);
+}
+
+.right {
+    width: 60vw;
 }
