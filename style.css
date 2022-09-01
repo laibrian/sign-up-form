@@ -10,14 +10,10 @@
     height: 100vw;
 }
 
-.container {
+.container, 
+.logo {
     display: flex;
     flex-flow: wrap;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .picture {
@@ -28,3 +24,9 @@ img {
     width: 40vw;
 }
 
+h1,
+.picture-credit,
+a:link,
+a:visited {
+    color: rgb(255, 255, 255);
+}
