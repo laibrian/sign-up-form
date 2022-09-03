@@ -1,67 +1,65 @@
-* {
+@font-face {
+    font-family: quartzo;
+    src: url(/fonts/QuartzoBold-W9lv.ttf);
+}
+
+html body {
+    font-size: 1.2rem;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-}
-
-.container, 
-.logo {
+.main {
     display: flex;
-    flex-flow: wrap;
+    justify-content: center;
+    width: 100vw;
 }
 
-.croissant-icon {
-    height: 10vh;
-}
-
-.picture-credit {
-    font-size: 12px;
-}
-
-.picture {
-    background-image: url(./assets/background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 40vw;
-}
-
-.logo {
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.6);
+.logo-side {
     position: relative;
-    top: 25vh;
-    gap: 1vw;
-    padding: 20px 0;
+    width: 60vw;
+    min-width: 350px;
+    height: 100vh;
+    background: url(/assets/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-family: quartzo;
+}
+
+.logo-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 2rem;
+    padding: 0px 2vw;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
+.croissant-icon {
+    width: 10vw;
+    padding: 20px;
 }
 
-a:link,
-a:visited {
-    text-decoration: none;
+.img-credit {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
 }
 
-a:hover {
-    text-decoration: underline;
+.img-credit p {
+    margin: 1px;
 }
 
-.right {
-    width: 60vw;
-}
-
-button {
-    background: #596D48;
-    border: 2px solid #596D48;
-    margin: 10px;
+input:invalid {
+    border: red solid 2px;
 }
