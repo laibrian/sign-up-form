@@ -21,9 +21,7 @@
 }
 
 .picture-credit {
-    align-items: flex-end;
     font-size: 12px;
-    padding: 10px 20px;
 }
 
 .picture {
@@ -38,20 +36,32 @@
     height: auto;
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
-    top: 20vh;
+    top: 25vh;
     gap: 1vw;
-    padding: 15px 0;
+    padding: 20px 0;
     justify-content: center;
     align-items: center;
 }
 
-h1,
-.picture-credit,
+h1 {
+    color: rgb(255, 255, 255);
+}
+
 a:link,
 a:visited {
-    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .right {
     width: 60vw;
+}
+
+button {
+    background: #596D48;
+    border: 2px solid #596D48;
+    margin: 10px;
 }
