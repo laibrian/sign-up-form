@@ -102,6 +102,11 @@ label {
     margin-bottom: 15px;
 }
 
+.submit-container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
 a {
     text-decoration: none;
     color: #596D48;
@@ -124,6 +129,8 @@ button[type="submit"]:hover {
 }
 
 input {
+    font-size: .9rem;
+    margin-top: 3px;
     padding: 5px 10px;
     border: 1px solid #E5E7EB;
     border-radius: 5px;
@@ -141,4 +148,39 @@ input:focus:invalid {
     font-size: .7rem;
     color: rgb(255, 69, 100);;
     position: absolute;
+}
+
+/* tablet screen */
+@media screen and (max-width: 850px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .logo-side {
+        width: 100vw;
+        height: 20rem;
+    }
+
+    .form-description,
+    .input-container,
+    .submit-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    form,
+    .form-side,
+    .submit-container {
+        width: 100vw;
+        justify-content: center;
+    }
+}
+
+/* mobile screen */
+@media screen and (max-width: 505px) {
+    label {
+        margin-bottom: 25px;
+    }
 }
